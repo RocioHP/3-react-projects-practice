@@ -6,7 +6,7 @@ import { GlobalContext } from '../../context'
 const Navbar = () => {
   const {searchParam, setSearchParam, handleSubmit} = useContext(GlobalContext); 
 
-  console.log(searchParam);
+  
 
 
   return (
